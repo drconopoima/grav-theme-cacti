@@ -363,13 +363,13 @@ pre	{
 	color: #d0d4d7;
 }
 
-pre:not(code) {
+pre code {
     background: transparent;
     padding: 0;
 }
 
 code.hljs {
-    padding: 16px;
+    padding: 0;
 }
 
 table {
@@ -562,7 +562,6 @@ Post List
 	font-size:13px;
 	font-weight:500;
 	margin-top: 40px;
-	margin-bottom: 40px;
 }
 
 #post-nav span {
